@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-cache-redux": "^0.1.0",
+    "apollo-client": "^2.3.1",
+    "apollo-link": "^1.2.2",
+    "apollo-link-error": "^1.0.9",
+    "apollo-link-http": "^1.5.4",
+    "apollo-link-redux": "^0.2.1",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "immutability-helper": "^2.7.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "randomcolor": "^0.5.3",
+    "react": "16.3.1",
+    "react-apollo": "^2.1.4",
+    "react-native": "0.55.4",
+    "react-native-alpha-listview": "^0.2.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.0.3",
+    "react-navigation-redux-helpers": "^1.1.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
